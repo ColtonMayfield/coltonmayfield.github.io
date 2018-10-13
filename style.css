@@ -1,17 +1,17 @@
 body {
-    background-color: silver;
+    background-color: #27566c;
 }
 
 .x1 {
     margin: auto;
     width: 50%;
-    border: 3px solid maroon;
+    border: 3px solid #113c51;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style: wavy;
 }
 
 .title1 {
-    color: darkblue;
+    color: #6e91a1;
     font-family: monospace;
 }
