@@ -24,6 +24,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    border-bottom: 15px solid #000000;
     }
 
     .active {
@@ -57,7 +58,8 @@ nav {
       text-transform: uppercase;
      }
 .container {
-    border: 5px solid darkgray;
+    border: 5px solid #000000;
+    border-radius: 1.5%;
     font-size: 30px;
     margin-top: 180px;
     padding-left: 20px;
@@ -71,7 +73,8 @@ nav {
 }
 
 .container2 {
-    border: 5px solid darkgray;
+    border: 5px solid #000000;
+    border-radius: 1.5%;
     font-size: 30px;
     margin-top: 180px;
     text-align: center;
@@ -85,7 +88,7 @@ nav {
 
 .insidecontainer {
     font-size: .52em;
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -93,16 +96,6 @@ nav a:hover {
     color: red;
 }
 
-.skill ul {
-    
-}
-
-.skill li {
-    font-size: .67em;
-    text-align: justify;
-    text-decoration: none;
-    list-style: none;
-}
 
 .profilephoto {
     margin-top: 10px;
@@ -110,4 +103,27 @@ nav a:hover {
     width: 180px;
     border: 1px solid darkslategray;
     box-shadow: 0 8px 10px black;
+}
+
+
+ul {
+    display: inline-block;
+    text-decoration: none;
+    font-size: .67em;
+    list-style: none;
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    padding-top: 0;
+    position: relative;
+    top: 0;
+}
+
+h5 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 15px 2px black;
 }
